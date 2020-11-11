@@ -1,0 +1,12 @@
+CREATE TABLE `logentries` (
+   `LogID` bigint(20) NOT NULL AUTO_INCREMENT,
+   `LogCreateDate` datetime(6) DEFAULT NULL,
+   `LogEntryDate` varchar(30) DEFAULT NULL,
+   `LogLevel` varchar(6) DEFAULT NULL,
+   `BTMID` varchar(30) DEFAULT NULL,
+   `Application` varchar(30) DEFAULT NULL,
+   `ClassName` varchar(40) DEFAULT NULL,
+   `MethodName` varchar(40) DEFAULT NULL,
+   `Message` text,
+   PRIMARY KEY (`LogID`)
+ ) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=latin1

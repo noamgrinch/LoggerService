@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService;
+package com.grinch.CentralLoggerService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

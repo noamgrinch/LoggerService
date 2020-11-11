@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService.Services.Impl;
+package com.grinch.CentralLoggerService.Services.Impl;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -9,9 +9,9 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.base.Throwables;
-import com.neogames.CentralLoggerService.BusinessLogic.Entities.Log;
-import com.neogames.CentralLoggerService.Repositories.LogsRepository;
-import com.neogames.CentralLoggerService.Services.CentralLoggerService;
+import com.grinch.CentralLoggerService.BusinessLogic.Entities.Log;
+import com.grinch.CentralLoggerService.Repositories.LogsRepository;
+import com.grinch.CentralLoggerService.Services.CentralLoggerService;
 
 @Service
 public class CentralLoggerServiceImpl implements CentralLoggerService{

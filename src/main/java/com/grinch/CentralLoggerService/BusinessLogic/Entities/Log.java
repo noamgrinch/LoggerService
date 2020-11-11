@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService.BusinessLogic.Entities;
+package com.grinch.CentralLoggerService.BusinessLogic.Entities;
 
 import java.sql.Timestamp;
 
@@ -6,8 +6,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.neogames.CentralLoggerService.BusinessLogic.ContextMap;
-import com.neogames.CentralLoggerService.BusinessLogic.Source;
+import com.grinch.CentralLoggerService.BusinessLogic.ContextMap;
+import com.grinch.CentralLoggerService.BusinessLogic.Source;
 
 import lombok.Data;
 @Data

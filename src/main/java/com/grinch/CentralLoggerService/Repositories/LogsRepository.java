@@ -1,9 +1,9 @@
-package com.neogames.CentralLoggerService.Repositories;
+package com.grinch.CentralLoggerService.Repositories;
 
 
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
-import com.neogames.CentralLoggerService.BusinessLogic.Entities.Log;
+import com.grinch.CentralLoggerService.BusinessLogic.Entities.Log;
 
 
 public interface LogsRepository extends ElasticsearchRepository<Log,Long>{

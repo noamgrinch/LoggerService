@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService.BusinessLogic;
+package com.grinch.CentralLoggerService.BusinessLogic;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

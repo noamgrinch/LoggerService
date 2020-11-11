@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService.Services;
+package com.grinch.CentralLoggerService.Services;
 
 
 

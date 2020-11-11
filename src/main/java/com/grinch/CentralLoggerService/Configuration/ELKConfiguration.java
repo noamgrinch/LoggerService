@@ -1,4 +1,4 @@
-package com.neogames.CentralLoggerService.Configuration;
+package com.grinch.CentralLoggerService.Configuration;
 
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.beans.factory.annotation.Value;

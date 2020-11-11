@@ -8,7 +8,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.neogames</groupId>
+	<groupId>com.grinch</groupId>
 	<artifactId>CentralLoggerService</artifactId>
 	<version>2020-09</version>
 	<name>CentralLoggerService</name>
